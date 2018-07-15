@@ -1,0 +1,99 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+// custom CSS
+
+// Universal
+
+.drop-60 {
+  margin-top: 60px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.form-group input[type="file"] {
+  //border-color: white;
+  padding-left: 0;
+  padding-top: 0;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+// Nesting Example Below
+
+.center {
+  text-align: center;
+  h1 {
+    margin-bottom: 10px;
+  }
+}
+
+
+// Typography
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: #777777;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+// Header
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 15px;
+  font-weight: bold;
+  &:hover {
+    color: #1E90FF;
+    text-decoration: none;
+  }
+}
+
+// Footer (SASS)
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #EAEAEA;
+  color: $gray-light;
+  a {
+    color: #555555;
+    &:hover {
+      color: #222222;
+    }
+  }
+  small {
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 15px;
+    }
+  }
+}
