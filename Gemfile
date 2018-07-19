@@ -6,10 +6,12 @@ git_source(:github) do |repo_name|
 end
 
 gem 'bootstrap-sass'
+gem 'byebug'
 gem 'dotenv-rails'
 gem 'instagram'
 gem 'listen'
 gem 'loofah', '> 2.2.1'
+gem 'omniauth-instagram'
 gem 'paperclip', '~> 6.0.0'
 gem 'rails-html-sanitizer', '> 1.0.3'
 gem 'rspec-rails'
