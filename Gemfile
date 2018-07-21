@@ -5,13 +5,13 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'annotate'
 gem 'bootstrap-sass'
-gem 'byebug'
+gem 'doorkeeper'
 gem 'dotenv-rails'
 gem 'instagram'
 gem 'listen'
 gem 'loofah', '> 2.2.1'
+gem 'oauth'
 gem 'omniauth-instagram'
 gem 'paperclip', '~> 6.0.0'
 gem 'rails-html-sanitizer', '> 1.0.3'
