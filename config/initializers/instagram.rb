@@ -1,6 +1,11 @@
 require "instagram"
 
+# hard-coded for an individual test account:
 # https://api.instagram.com/oauth/authorize/?client_id=317bcc80d9a74ab7841c0467ac656dbd&redirect_uri=http://localhost:3000/&response_type=token
+
+# open-coded for any authorized user login:
+# https://api.instagram.com/oauth/authorize/?client_id=CLIENT-ID&redirect_uri=REDIRECT-URI&response_type=code
+
 Instagram.configure do |config|
   config.client_id = "317bcc80d9a74ab7841c0467ac656dbd"
   config.client_secret = '18ff01a7f6434e628e2eacd79cc26410'
